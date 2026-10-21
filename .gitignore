@@ -1,0 +1,22 @@
+# Gradle / Kotlin
+.gradle/
+build/
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# C binaries
+*.out
+*.o
+*.exe
+a.out
+
+# Local test data
+input.txt
+output.txt
+
+# OS
+.DS_Store
