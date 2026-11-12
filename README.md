@@ -1,11 +1,11 @@
 # Programming Problems
 
-Archivo personal de programación competitiva: soluciones propias a problemas de distintas plataformas, competencias y la lista de los 99 Problems.
+Archivo personal de programación competitiva: soluciones propias a problemas de distintas plataformas y a competencias.
 
 Lenguajes:
 - **C++**: el principal, para competencias y problemas difíciles.
 - **Python**: herramientas (generadores de casos, fuerza bruta) y problemas con números grandes.
-- **Kotlin**: el lenguaje del momento. Va rotando para probar otros.
+- **Kotlin**: el lenguaje del momento. Se usa para volver a resolver problemas que ya salieron en C++. Va rotando para probar otros.
 
 
 ## Estructura
@@ -19,15 +19,12 @@ programming-problems/
 │   └── 2026-icpc-centroamerica/
 │       ├── b-nombre-del-problema.cpp
 │       └── notas.md
-├── 99-problems/     separado por lenguaje
-│   └── kotlin/
 └── tools/           plantillas y scripts (stress testing, generadores)
 ```
 
 - **Las plataformas** usan una carpeta plana. El lenguaje lo indica la extensión del archivo.
 - **Los problemas van por juez original**, aunque se hayan resuelto desde vjudge.
 - **`contests/`** es solo para eventos donde importa el set completo: ICPC, simulacros en equipo y contests armados en vjudge con problemas de varios jueces. Los rounds normales de Codeforces y CodeChef van en la carpeta de su plataforma.
-- **99-problems** está separado por lenguaje, porque los mismos problemas se pueden resolver en varios lenguajes y cada uno tiene su propia configuración.
 
 
 ## Nombres
@@ -72,4 +69,3 @@ Los problemas que no salieron en la competencia se resuelven después (upsolving
 - [Codeforces](https://codeforces.com/problemset)
 - [CodeChef](https://www.codechef.com/practice)
 - [CSES Problem Set](https://cses.fi/problemset/)
-- [Ninety-Nine Kotlin Problems](https://github.com/dkandalov/kotlin-99)
